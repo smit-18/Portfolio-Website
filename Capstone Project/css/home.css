@@ -11,6 +11,7 @@ nav{
   top: 0;
   left: 0;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #fff;
@@ -25,7 +26,6 @@ nav{
 #myLinks a{
   color: #424242;
   text-transform: uppercase;
-
 }
 
 .topnav a {
@@ -46,21 +46,19 @@ nav{
 }
 
 .active {
-  background-color: #4CAF50;
-  color: #fff;
+  color: #000;
 }
 
-.portrait-img {
+#portrait-img {
   width: 100vw;
   height: 100vh;
   background-size: 100vw 100%;
   background-repeat: no-repeat;
-  margin-top: 5.5vh;
   background-color: #000;
 }
 
 #welcome-msg {
-  padding-top: 35vh;
+  padding-top: 32vh;
 }
 
 #welcome-msg h1{
@@ -93,7 +91,7 @@ nav{
 
 #portfolio .container img{
   width: 90vw;
-  height: 50vh;
+  height: 45vh;
   padding-left: 5vw;
   padding-top: 10%;
 }
@@ -273,6 +271,7 @@ nav{
   height: 100%;
   width: 100vw;
   margin-top: 35%;
+  padding-bottom: 10%;
 }
 
 #contact-me h2{
@@ -333,6 +332,208 @@ form input, textarea{
   padding-top: 6%;
   padding-bottom: 3%;
 }
+
+#copyright{
+  text-align: center;
+  color: #757575;
+}
+
+#social-links{
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 20%; 
+}
+
+#social-links a{
+  padding-left: 8%;
+}
+
+#social-links a:first-child{
+  padding-left: 0;
+}
+
+
+@media all and (min-width: 800px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav{
+    width: 100vw;
+    background-color: transparent;
+    transition: 1s;
+  }
+
+  .topnav #myLinks {
+    display: inline-block;
+    padding-left: 25vw;
+    background-color: transparent;
+  }
+
+  #welcome-msg h1{
+    font-size: 3.8em;
+  }
+
+  .topnav a{
+    width: 7vw;
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  #myLinks a:hover {
+    color: #bac964;
+  }
+
+  #myLinks a{
+    color: #fff;
+    margin-top: 6vh;
+  }
+
+  .topnav a.icon {
+    display: none;
+  }
+
+  .topnav #home{
+    display: none;
+  }
+
+  .portrait-img {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  #portfolio {
+    padding-bottom: 0;
+  }
+
+  #portfolio h2{
+    padding-top: 8%;
+  }
+
+  #portfolio .container {
+  display: inline-block;
+  }
+
+  #portfolio .container img{
+  width: 25vw;
+  height: 40vh;
+  padding-left: 6vw;
+  }
+
+  #portfolio .container p{
+  padding-left: 6vw;
+  }
+
+  #resume {
+    padding-bottom: 0;
+  }
+
+  #resume h2{
+    padding-top: 15%;
+  }
+
+  .edu, .exp {
+    display: inline-block;
+    width: 45vw;
+  }
+
+  .edu{
+    margin-left: 4vw;
+  }
+
+  #resume .container {
+    width: 38vw;
+    padding: 15px;
+  }
+
+  #img, #info {
+    display: inline-block;
+  }
+
+  #img img{
+    width: 35vw;
+    padding-left: 8vw;
+  }
+
+  #about{
+    margin-top: 5%;
+  }
+
+  #info {
+    width: 40vw;
+    float: right;
+    margin-right: 7%;
+    margin-top: 7%;
+  }
+
+  #info h2{
+    padding-top: 2%;
+  }
+
+  #my-services {
+    margin-top: 20%;
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  #my-services h2{
+    margin-bottom: 0%;
+  }
+
+  .service {
+    width: 25vw;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+  }
+
+  .service:first-child {
+    margin-left: 0;
+  }
+
+  .service p{
+    width: 23vw;
+  }
+
+  #contact-me{
+    margin-top: 40%;
+    clear: both;
+  }
+
+  .get-in-touch {
+    width: 45vw;
+    display: inline-block; 
+    margin-left: 7vw;
+    clear: both;
+  }
+
+  .contact-details{
+    width: 38vw;
+    display: inline-block;
+    float: right;
+    margin-right: 3vw;
+  }
+
+  form input, textarea{
+    width: 40vw;
+  }
+
+  #social-links{
+    margin-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  #social-links a{
+    padding-left: 4%;
+  }
+
+}
+
 
 
 
