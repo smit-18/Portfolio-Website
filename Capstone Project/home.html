@@ -10,22 +10,25 @@
 </head>
 <body>
 	<nav>
-	<div class="topnav">
-    <a href="#home">Home</a>
+
+	<div class="topnav" id="navbar">
+      <a id="home" href="#home">Home</a>
+
     <div id="myLinks">
-    <a href="#news">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#resume">Resume</a>
-    <a href="#about">About</a>
-    <a href="#contact-me">Contact</a>
+      <a href="#portrait-img" class="links">Home</a>
+      <a href="#portfolio" class="links">Portfolio</a>
+      <a href="#resume" class="links">Resume</a>
+      <a href="#about" class="links">About</a>
+      <a href="#contact-me" class="links">Contact</a>
     </div>
+
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
     </div>
     </nav>
 
-    <section class="portrait-img">
+    <section id="portrait-img">
     	<div id="welcome-msg">
     		<center><h1>Hello, I'm<br><span>Smit Vekaria</span></h1></center>
     	</div>
@@ -130,7 +133,7 @@
     </section>
 
     <section id="about">
-    	<div>
+    	<div id="img">
     		<img src="#" alt="My portrait image">
     	</div>
     	<div id="info">
@@ -199,6 +202,21 @@
 			</div>
     	</div>
     </section>
+
+    <footer>
+
+    	<div id="copyright">
+    		<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> | All rights reserved</p>
+    	</div>
+
+    	<div id="social-links">
+    		<a href=""><img src="imgs/facebook.png"></a>
+    		<a href=""><img src="imgs/instagram.png"></a>
+    		<a href=""><img src="imgs/linkedin.png"></a>
+    		<a href=""><img src="imgs/twitter.png"></a>
+    	</div>
+    	
+    </footer>
 
 </body>
 </html>
