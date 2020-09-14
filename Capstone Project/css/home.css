@@ -4,6 +4,13 @@ body{
   color: #fff;
   margin: 0;
   padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#container{
+  flex: 1;
 }
 
 nav{
@@ -64,6 +71,7 @@ nav{
 #welcome-msg h1{
   font-size: 2.5em;
   font-weight: lighter;
+  text-align: center;
 }
 
 #welcome-msg span{
